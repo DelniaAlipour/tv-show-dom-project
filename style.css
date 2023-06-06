@@ -1,3 +1,137 @@
-#root {
-  color: red;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1f2f1f;
+}
+.title {
+  text-align: center;
+  margin-top: 2rem;
+  color: #b8e986;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #b8e986;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.show-card {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #243d24;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #2b482b;
+  color: #b8e986;
+}
+
+.show-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.show-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.show-card p {
+  margin-bottom: 5px;
+}
+
+/* Episode Card Styles */
+
+.card {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #243d24;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #1a271a;
+  color: #b8e986;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card div {
+  margin-bottom: 10px;
+}
+
+select {
+  padding-top: 1rem;
+  width: 60%;
+  padding: 8px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+  border: 1px solid #243d24;
+  background-color: #2b482b;
+  color: #b8e986;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 8px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+  border: 1px solid #243d24;
+  background-color: #2b482b;
+  color: #b8e986;
+  box-sizing: border-box;
+}
+
+#matchedCount {
+  color: #b8e986;
+  text-align: center;
+}
+.back-button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: #4c704c;
+  color: #b8e986;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.back-button:hover {
+  background-color: #405a40;
+}
+
+.highlight {
+  background-color: #ae83aa;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .show-card,
+  .card {
+    width: calc(50% - 20px);
+  }
 }
